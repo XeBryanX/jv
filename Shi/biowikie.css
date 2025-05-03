@@ -1,0 +1,102 @@
+.wikimenu{
+    text-align: left;
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    position: fixed;
+}
+
+.iframe {
+    margin-top: 5%;
+    border: 1px black;
+    width: 360px;
+    height: 900px;
+    border: 0;
+    position: sticky;
+    float: right;
+}
+
+.container {
+    display:flex;
+    width: 100%;
+    position: fixed;
+    margin-top: 0%;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(127, 0, 0);
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.font {font-family: Roboto Slab}
+
+.margin {
+    margin-left: 22.5%;
+    margin-right: 25%;
+    font-family: Roboto Slab;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/*straight up what it describes*/ 
+.logo{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/*scroll bar*/ 
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+body, html {
+    background-color: white;
+    color: black;
+}
+
+.body{
+    background-color: white;
+    color: black;
+}
+/* This is for like the friends section */ 
+button{
+    border: 1px black;
+    width: 300px;
+    background-color: #eaf5ff;
+}
+button:hover{
+    background-color: #c4e2ff;
+}
+
+.body{
+    background-color: white;
+}
+
+
